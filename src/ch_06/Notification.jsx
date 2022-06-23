@@ -18,7 +18,7 @@ const styles = {
 class Notification extends React.Component {
     constructor(props) { //생성자함수
         super(props);
-        
+
         //생성자에서 모든 state를 한 번에 정의
         //state를 변경하고자 할 때에는 꼭 setState()함수를 사용해야 함
         this.state = {}; 
@@ -64,6 +64,7 @@ export default Notification;
       클래스 컴포넌트
         생성자에서 모든 state를 한 번에 정의
         state를 변경하고자 할 때에는 꼭 setState()함수를 사용해야 함
+        컴포넌트의 생명주기 함수까지 모두 명확하게 정의되어 있어 잘 가져다 쓰면 됨
       
       함수 컴포넌트
         useState()훅을 사용하여 각각의 state를 정의
