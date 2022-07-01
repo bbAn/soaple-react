@@ -23,13 +23,14 @@ function AttendanceBook(props) {
     return (
         <ul>
             {students.map((student, index) => {
-                return <li key={student.id}>{students.name}</li>;
+                return <li key={student.id}>{student.name}</li>;
             })}
         </ul>
     );
 }
 
 export default AttendanceBook;
+
 
 /*
 
@@ -56,5 +57,4 @@ export default AttendanceBook;
     - id를 사용
       id의 의미 자체가 고유한 값이므로 키값으로 사용하기에 적합
       id가 있는 경우에는 보통 id 값을 키값으로 사용
-      
 */
