@@ -2,14 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import ConfirmButton from './ch_08/ConfirmButton';
-import LandingPage from './ch_09/LandingPage';
+import AttendanceBook from './ch_10/AttendanceBook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
     <React.StrictMode>
-      <LandingPage/>
+      <AttendanceBook/>
     </React.StrictMode>
   );
 
