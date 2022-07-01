@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import AttendanceBook from './ch_10/AttendanceBook';
+import SignUp from './ch_11/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
     <React.StrictMode>
-      <AttendanceBook/>
+      <SignUp/>
     </React.StrictMode>
   );
 
