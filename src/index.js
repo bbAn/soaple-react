@@ -2,14 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import ProfileCard from './ch_13/ProfileCard';
-import DarkOrLight from './ch_14/DarkOrLight';
+import Blocks from './ch_15/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
     <React.StrictMode>
-      <DarkOrLight />
+      <Blocks />
     </React.StrictMode>
   );
 
