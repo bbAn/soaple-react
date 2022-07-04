@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ProfileCard from './ch_13/ProfileCard';
+import DarkOrLight from './ch_14/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
     <React.StrictMode>
-      <ProfileCard/>
+      <DarkOrLight />
     </React.StrictMode>
   );
 
